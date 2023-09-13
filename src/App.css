@@ -1,0 +1,71 @@
+/* Estilo para o título principal */
+.app-title {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+/* Estilo para a lista de produtos */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Estilo para cada cartão de produto */
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  max-width: 300px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+/* Estilo para o link do produto */
+.product-link {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Estilo para a imagem do produto */
+.product-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilo para o título do produto */
+.product-title {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Estilo para o preço do produto */
+.product-price {
+  font-size: 16px;
+}
+
+/* Estilo para a página de detalhes do produto */
+.product-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilo para a descrição do produto na página de detalhes */
+.product-description {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Estilo para a mensagem de carregamento */
+.loading {
+  text-align: center;
+  font-size: 20px;
+  margin: 20px;
+}
